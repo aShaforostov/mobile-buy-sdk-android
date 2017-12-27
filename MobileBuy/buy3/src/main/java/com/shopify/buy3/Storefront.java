@@ -17742,7 +17742,7 @@ public class Storefront {
             Query.appendQuotedString(_queryBuilder, checkoutId.toString());
 
             _queryBuilder.append(",shippingRateHandle:");
-            Query.appendQuotedString(_queryBuilder, shippingRateHandle.toString());
+            Query.appendQuotedString(_queryBuilder, shippingRateHandle);
 
             _queryBuilder.append(')');
 
